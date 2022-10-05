@@ -10,7 +10,7 @@ public class ProjectPage {
     private final By CREATE_SUITE_BUTTON = By.cssSelector("#create-suite-button");
 
     public void isOpened(){
-        $("#create-suite-button").shouldBe(Condition.visible);
+        $(CREATE_SUITE_BUTTON).shouldBe(Condition.visible);
     }
 
 }

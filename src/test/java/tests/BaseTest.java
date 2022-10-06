@@ -28,7 +28,7 @@ public class BaseTest {
         user = PropertyReader.getProperty("qase.user");
         password = PropertyReader.getProperty("qase.password");
         Configuration.browser = "firefox";
-//        Configuration.headless = true;
+        Configuration.headless = true;
         Configuration.timeout = 10000;
 //        Configuration.clickViaJs = true;
 //        Configuration.assertionMode = AssertionMode.STRICT;
